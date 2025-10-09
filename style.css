@@ -1,0 +1,55 @@
+/* Accent gradient icon circle (index page header icon) */
+.icon-circle {
+  width: 42px; height: 42px; border-radius: 9999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: #0a0f1a;
+}
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #22d3ee 0%, #60a5fa 100%);
+}
+
+/* Drag & drop zone */
+.drop-zone {
+  border: 2px dashed rgba(255,255,255,0.2);
+  border-radius: 16px;
+  padding: 28px;
+  background: rgba(255,255,255,0.02);
+  transition: all .2s ease;
+}
+.drop-zone.drag-over {
+  border-color: #22d3ee;
+  background: rgba(34, 211, 238, 0.08);
+}
+
+/* Preview box */
+.preview-box {
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.02);
+  border-radius: 12px;
+  padding: 12px;
+}
+.preview-box img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Material icon mimic (optional, uses system font as fallback) */
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+
+/* Progress bars (top-3) */
+.progress {
+  --bs-progress-height: 10px;
+  background-color: rgba(255,255,255,0.08);
+}
+.progress-bar {
+  background: linear-gradient(135deg, #22d3ee 0%, #60a5fa 100%);
+}
+
+/* Result image container keep ratio square but responsive */
+.preview-container img {
+  object-fit: contain;
+  background: rgba(255,255,255,0.02);
+  border-color: rgba(255,255,255,0.1) !important;
+}
